@@ -235,6 +235,84 @@ section>div>div {
     background-color: rgba(187,239,253,0.3);
     border-bottom: 1px solid rgba(0,0,0,0.2);
     color: #1a1a1a;
+}
+
+[src="http://lms.brainacad.zp.ua/"] {
+    position: static;
+    visibility: visible;
+    display: inline-block;
+    width: 520px;
+    height: 600px;
+    padding: 0px;
+    border: none;
+    max-width: 100%;
+    min-width: 180px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-height: 200px;
+}
+
+.css-1m173d1 {
+    margin-top: 80px;
+}
+
+.css-1x091gh {
+    color: #6d6d6d;
+    border-color: #ececec;
+}
+
+.css-smm72f {
+    background-color: #20232a;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.css-tctv7l {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1260px;
+}
+
+.css-ftk3jl {
+    display: flex;
+    padding-right: 380px;
+}
+
+.css-1q9mcvr {
+    display: flex;
+    width: calc(100% / 3 * 2);
+    padding-left: 40px;
+}
+
+.css-12bsqfj {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.css-1izr7si {
+    max-width: 160px;
+    height: auto;
+}
+
+.css-1yy5aal {
+    color: #999;
+    padding-top: 15px;
+}
+
+.css-12bsqfj {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding-top: 40px;
+}
 
 a {
     text-decoration: none;
