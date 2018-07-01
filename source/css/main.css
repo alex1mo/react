@@ -126,20 +126,21 @@ section>div>div {
 }
 
 .blog {
+    max-width: 800px;
     flex-grow: 1;
     flex-basis: auto;
 }
 
 .sidebar {
+    min-width: 220px;
     flex-basis: 300px;
     border-left: 1px solid #ececec;
     margin-left: 80px;
-    /* background: red; */
 }
 
 .in_sidebar {
     position: fixed;
-    /* z-index: 2; */
+    z-index: 2;
     height: calc(100vh - 50px);
     overflow-y: auto;
     margin-right: -999px;
@@ -190,7 +191,50 @@ section>div>div {
     margin-top: 5px; 
 }
 
+.css-hgc6lu {   
+     margin-top: 80px;
+    color: #282c34;
+    margin-bottom: 0;
+    font-size: 40px;
+    line-height: 65px;
+    font-weight: 700;
+}
 
+.css-124oy3v {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.css-51kfyg {
+    line-height: 25px;
+}
+
+.css-51kfyg p {
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 42em;
+}
+
+.css-51kfyg > p:first-child {
+    font-size: 24px;
+    font-weight: 300;
+    color: #6d6d6d;
+}
+
+.css-51kfyg h2 {
+    font-size: 35px;
+    border-top: 1px solid #ececec;
+    margin-top: 44px;
+    padding-top: 40px;
+    line-height: 1.2;
+}
+
+.css-51kfyg a:not(.anchor):not(.gatsby-resp-image-link) {
+    text-decoration: none;
+    background-color: rgba(187,239,253,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    color: #1a1a1a;
 
 a {
     text-decoration: none;
