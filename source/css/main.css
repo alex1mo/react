@@ -107,56 +107,37 @@ header {
     margin-left: 10px;
 }
 
-
 section {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-}
-
-.blog {    
-    border: solid black 1px;
-    max-width: 1146px;
-    flex-grow: 0.6;
+    margin-top: 60px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 1000px;
+    background: black;
 }
 
-.blog1 {
-    max-width: 560px;
-}
-
-.blog h1 {
-    margin-top: 80px;
-    color: #282c34;
-    margin-bottom: 0;
-    margin-top: 40px;
-    font-size: 60px;
-    line-height: 65px;
-    font-weight: 700;
-}
-
-aside {
-    min-width: 220px;
-    
-    position: fixed;
-    top: 50px;
-    right: 0px;
-}
-
-.aside1 {  
-    border: solid black 1px;
-    margin-top: 50px;
-    min-width: 240px;
-    height: 582px;
-    position: fixed;
-    top: 50px;
-    right: 0px;
-}
-
-.navigator3 {
+section>div {
+    width: 90%;
+    height: 1000px;
+    background: white;
     padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+section>div>div {
+    display: flex;
+    height: 1000px;
+}
+
+.blog {
+    flex-grow: 1;
+    flex-basis: auto;
+    background: green;
+}
+
+.sidebar {
+    flex-basis: 300px;
+    border-left: 1px solid #ececec;
+    margin-left: 80px;
+    background: red;
+}
