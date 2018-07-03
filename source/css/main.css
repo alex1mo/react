@@ -1,4 +1,4 @@
-* {
+b* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -107,12 +107,12 @@ li {
     margin-left: 10px;
 }
 
-section {
+.second-part{
     margin-top: 50px;
     width: 100%;
 }
 
-section>div {
+.second-part>div {
     width: 90%;
     background: white;
     padding-left: 20px;
@@ -121,7 +121,7 @@ section>div {
     margin-right: auto;
 }
 
-section>div>div {
+.second-part>div>div {
     display: flex;
 }
 
@@ -167,6 +167,7 @@ section>div>div {
 }
 
 .css-cqdcva {
+    text-align: left;
     color: #1a1a1a;
     font-size: 14px;
     font-weight: 700;
@@ -176,6 +177,7 @@ section>div>div {
 }
 
 .css-axv6fp {
+    padding: 0px;
     margin-bottom: 10px;
 }
 
@@ -268,6 +270,11 @@ section>div>div {
     padding-bottom: 50px;
 }
 
+.css-1ac8j74 {
+    width: calc(100% / 3);
+    padding-top: 40px;
+}
+
 .css-tctv7l {
     padding-left: 20px;
     padding-right: 20px;
@@ -284,6 +291,7 @@ section>div>div {
 
 .css-1q9mcvr {
     display: flex;
+    flex-wrap: wrap;
     width: calc(100% / 3 * 2);
     padding-left: 40px;
 }
@@ -314,10 +322,33 @@ section>div>div {
     padding-top: 40px;
 }
 
+.css-109jn6d {
+    color: #999;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 3;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.css-8l81zy {
+    line-height: 2;
+}
+
 a {
+    color: inherit;
     text-decoration: none;
 }
 
 li {
     text-align: left;
+}
+
+a:hover {
+    color: #61dafb;
+}
+
+.css-19pur11:hover {
+    color: black;
+    opacity: 0.5;
 }
